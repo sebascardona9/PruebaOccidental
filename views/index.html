@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Node App</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #232323;
+        }
+
+        .main-content {
+            width: 80%;
+            padding: 10px 40px;
+            background-color: #343434;
+            border-radius: 5px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 3px 10px;
+        }
+
+        .navbar {
+            padding: 4px 30px 10px 0px;
+            border-bottom: #232323 3px solid;
+        }
+
+        .users-list {
+            padding: 10px 10px;
+            margin: 2px auto;
+            color: #fff;
+            border-bottom: #232323 1.5px solid;
+        }
+
+        .users-detail {
+            display: flex;
+        }
+
+        .user-specs {
+            text-align: left;
+            margin: 0px 10px;
+
+        }
+
+        span {
+            color: #FF5733;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 2px 0px 2px 0px;
+        }
+
+        h5,
+        h4,
+        h3,
+        h2 {
+            margin: 10px 0px 10px 0px;
+        }
+
+        .btn {
+            padding: 6px 20px;
+            border-radius: 3px;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: #16A085;
+        }
+
+        .btn-secondary {
+            background-color: #FF5733;
+        }
+
+        .btn-back {
+            padding: 6px 20px;
+            border-radius: 15px;
+            border: none;
+            background-color: #FF3131;
+            color: white;
+        }
+
+        .user-desc {
+            display: flex;
+            width: 100%;
+        }
+
+        .user-desc-p {
+            margin-top: 4px;
+            font-size: 14px;
+        }
+        .page-content{
+                text-align: center;
+                padding-top: 40px;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="navbar">
+            <a href="Home">Inicio</a>
+            <a href="Users">Usuarios</a>
+        </div>
+        <div class="page-content">
+            {{%CONTENT%}}
+        </div>
+    </div>
+</body>
+
+</html>

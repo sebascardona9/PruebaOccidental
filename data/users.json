@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Juan Pérez",
+    "email": "juanperez@example.com",
+    "registeredAt": "2022-02-01"
+  },
+  {
+    "name": "María González",
+    "email": "mariagonzalez@example.com",
+    "registeredAt": "2022-01-01"
+  },
+  {
+    "name": "Pedro García",
+    "email": "pedrogarcia@example.com",
+    "registeredAt": "2022-03-01"
+  }
+]
+  
